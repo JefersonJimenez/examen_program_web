@@ -1,0 +1,56 @@
+body{
+  background-color: blanchedalmond;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.configtitle{
+  height: 270px;
+  width: 100%;
+  position: relative;
+}
+.title{
+  background-color:rgb(115, 199, 115);
+  height: 160px;
+  width: 50%;
+  position: absolute;
+  top: 20px;
+  left: 470px;
+  text-align: center;
+  padding-top: 55px;
+}
+.formulario{
+  background-color: rgb(250, 227, 152);
+  height: 683px;
+  width: 50%;
+  position: relative;
+  left: 468px;
+}
+.contenido{
+  background-color: transparent;
+  height: 560px;
+  width: 70%;
+  position: absolute;
+  top: 40px;
+  left: 120px;
+  font-size: 30px;
+}
+.flexbox-container{
+  display: flex;
+  flex-direction:column;
+}
+input{
+  font-size: 30px;
+}
+button{
+  font-size: 30px;
+  border-radius: 10px;
+}
+.botones{
+  display: flex;
+  justify-content: space-between;
+
+}
